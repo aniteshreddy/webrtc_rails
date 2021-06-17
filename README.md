@@ -5,21 +5,14 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Run npm install to get all the required packs
 
-* System dependencies
+* To setup connection for TURN and STUN servers run node server.js in terminal
 
-* Configuration
+* In other terminal run rails s
 
-* Database creation
+* Enter the room name and send connecion to user
 
-* Database initialization
+* Then Start room
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# webrtc_rails
+* Now enter same room name and join room.
