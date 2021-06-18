@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-        <%= stylesheet_link_tag 'vconnect' %>
+<head>
 
-    </head>
-    <body>
-        <div>
-            <input placeholder="Enter username..." type="text" id="username-input-sender"/><br>
-            <button onclick="sendUsername()">Send</button>
-            <button onclick="startCall()">Start Call</button>
+    <%= stylesheet_link_tag 'vconnect' %>
+
+</head>
+
+<body>
+    <div class="d-flex justify-content-center border p-4">
+        <div class="w-75 classWithPad ">
+
+            <input id="username-input " type="text" class="form-control" placeholder="Create room"
+                id="username-input-sender">
+            <br>
+            <button onclick="sendUsername()" class="btn btn-secondary" type="button">Send</button>
+            <button onclick="startCall()" class="btn btn-success " type="button">Start Call</button>
         </div>
-        <div id="video-call-div">
-            <video muted id="local-video" autoplay></video>
-            <video id="remote-video" autoplay></video>
-            <div class="call-action-div">
-                <button onclick="muteVideo()">Mute Video</button>
-                <button onclick="muteAudio()">Mute Audio</button>
-            </div>
+    </div>
+    <div id="video-call-div">
+        <video muted id="local-video" autoplay></video>
+        <video id="remote-video" autoplay></video>
+        <div class="call-action-div">
+            <button onclick="muteVideo()">Mute Video</button>
+            <button onclick="muteAudio()">Mute Audio</button>
         </div>
-        <%= javascript_pack_tag 'sender' %> 
+    </div>
+    <%= javascript_pack_tag 'sender' %>
 
-    </body>
+</body>
 
 </html>

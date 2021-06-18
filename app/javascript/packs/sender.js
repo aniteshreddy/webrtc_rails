@@ -1,4 +1,4 @@
-const webSocket = new WebSocket("ws://192.168.0.112:3001")
+const webSocket = new WebSocket("ws://127.0.0.1:3001")
 
 console.log("senders file")
 

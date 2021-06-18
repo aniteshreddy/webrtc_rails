@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head></head>
-    <body>
-        <%= render 'vconnect/sender' %>
-        <%= render 'vconnect/receiver' %>
-    </body>
+
+<head></head>
+
+<body style="background-color: rgba(251,248,245,0.98);">
+    <div>
+        <div class="card container" style="width:45%;">
+            <div class="card-body">
+                <h5 class="card-title text-center fs-1">Basecamp Connect</h5>
+                <hr style="display: block;border: 3px solid black ; border-radius: 5px;  background-color: #123455;">
+                <h6 class="card-subtitle mb-2 text-muted">Now with the help of Basecamp connect you can easily make
+                    calls and connect with your peers without leaving Basecamp</h6>
+                <p class="card-text">
+                <div  style="padding-left: 3cm;padding-right: 3cm;">
+                    <%= render 'vconnect/sender' %>
+                        <br>
+                        <br>
+                        <%= render 'vconnect/receiver' %>
+                </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
