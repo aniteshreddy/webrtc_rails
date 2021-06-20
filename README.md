@@ -5,13 +5,13 @@ Things you may want to cover:
 
 * Use Chrome chrome browser .
 
-* Run npm install to get all the required packs
+* Run npm install websocket to get the required packs
 
-* To setup connection for TURN and STUN servers run node server.js in terminal
+* To setup connection for TURN and STUN servers run "node server.js" in terminal
 
-* In other terminal run rails s
+* In other terminal run "rails s"
 
-* Enter the room name and send connecion to user
+* Enter the room name and send request to server
 
 * Then Start room
 
