@@ -3,6 +3,8 @@
 
 Things you may want to cover:
 
+* Use Chrome for opening app.
+
 * Run npm install to get all the required packs
 
 * To setup connection for TURN and STUN servers run node server.js in terminal
@@ -14,3 +16,7 @@ Things you may want to cover:
 * Then Start room
 
 * Now enter same room name and join room.
+
+* If both host and client are in different system then inside reciever.js and sender.js you need to add the IP address of the sytem where the server is running and both needs to be connected to same network
+
+* You can use Ngrok to use the application on different systems.
