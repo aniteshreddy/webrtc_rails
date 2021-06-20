@@ -5,7 +5,7 @@ Things you may want to cover:
 
 * Use Chrome chrome browser .
 
-* Run npm install websocket to get the required packs
+* Run "npm install websocket" to get the required packs
 
 * To setup connection for TURN and STUN servers run "node server.js" in terminal
 
