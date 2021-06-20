@@ -3,7 +3,7 @@
 
 Things you may want to cover:
 
-* Use Chrome for opening app.
+* Use Chrome chrome browser .
 
 * Run npm install to get all the required packs
 
