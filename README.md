@@ -5,7 +5,7 @@ Things you may want to cover:
 
 * Use Chrome chrome browser .
 
-* Run npm install websocket to get the required packs
+* Run "npm install websocket" to get the required packs
 
 * Remember to run server.js file before starting the rails app.
 
