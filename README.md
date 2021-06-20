@@ -7,6 +7,8 @@ Things you may want to cover:
 
 * Run npm install websocket to get the required packs
 
+* Remember to run server.js file before starting the rails app.
+
 * To setup connection for TURN and STUN servers run "node server.js" in terminal
 
 * In other terminal run "rails s"
