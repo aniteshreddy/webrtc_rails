@@ -1,6 +1,3 @@
-# I will continue to improve my skills and make project better in every way possible till I receive a response, hope You'll see this ---- to Jason Fried.
-
-
 Things you may want to cover:
 
 * Use Chrome chrome browser .
